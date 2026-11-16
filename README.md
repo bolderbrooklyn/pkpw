@@ -83,9 +83,7 @@ a combinatorics or cryptography expert.
 [Password entropy][] is calculated using the pool size $R$ and password length
 $L$ used to generate a password:
 
-$$
-E = log_2(R^L)
-$$
+$$ E = log_2(R^L) $$
 
 where a brute-force attack will need an average of $2^{E-1}$ guesses to
 crack a password with $E$ bits of entropy.
@@ -93,9 +91,7 @@ crack a password with $E$ bits of entropy.
 By default, `pkpw` chooses **4** Pokémon names from the pool of [**1028** known
 Pokémon][names], resulting in an entropy of
 
-$$
-E = log_2(1028^4) \approx 40.022
-$$
+$$ E = log_2(1028^4) \approx 40.022 $$
 
 bits. A dictionary attack that knows to use the 1028 known Pokémon names as the
 pool of values would take $5.584 \times 10^{11}$ guesses on average to correctly
@@ -109,9 +105,7 @@ characters (4 Pokémon names, plus one space separating each name for a total of
 characters (alphanumeric, special characters, and space) would be working
 against
 
-$$
-E = log_2(95^{34}) \approx 222.375
-$$
+$$ E = log_2(95^{34}) \approx 222.375 $$
 
 bits of entropy, taking an average of $1.748 \times 10^{67}$ guesses, or
 **$5.540 \times 10^{56}$ years**, to correctly guess a password.
