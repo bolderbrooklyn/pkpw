@@ -60,7 +60,7 @@ let mut rng = rng();
 let password = generate(None, 4, " ", None, &mut rng);
 ```
 
-### Javascript/Typescript
+### JavaScript/Typescript
 
 ```typescript
 import { pkpw } from "pkpw";
@@ -68,7 +68,7 @@ import { pkpw } from "pkpw";
 const password = pkpw();
 ```
 
-The Javascript/Typescript package is compiled from Rust into WASM. If embedded
+The JavaScript/Typescript package is compiled from Rust into WASM. If embedded
 in a [web page][pkpw], for example, all password generation runs in the browser;
 only analytics of page visit count, password generation count, and the options
 (minimum length, Pokémon name count, and separator character set) are sent over
