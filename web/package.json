@@ -16,7 +16,7 @@
   },
   "devDependencies": {
     "@biomejs/biome": "^2.6.8",
-    "@rsbuild/core": "^2.3.2",
+    "@rsbuild/core": "^2.3.3",
     "@rsbuild/plugin-preact": "^2.1.0",
     "@tailwindcss/postcss": "^4.3.5",
     "daisyui": "^5.8.1",
