@@ -19,7 +19,7 @@
     "@rsbuild/core": "^2.3.2",
     "@rsbuild/plugin-preact": "^2.1.0",
     "@tailwindcss/postcss": "^4.3.5",
-    "daisyui": "^5.8.1",
+    "daisyui": "^5.8.2",
     "tailwindcss": "^4.3.5",
     "typescript": "^7.0.2"
   }
